@@ -84,17 +84,42 @@ namespace Fundamentos_Csharp
 
 
             /********************** INVOCANDO FUNÇÃO **********************/
-            MeuMetodo();
-            string nome = RetornaNome("Joao Victor", "Carvalho", 22);
-            Console.WriteLine(nome);
+            // MeuMetodo();
+            // string nome = RetornaNome("Joao Victor", "Carvalho", 22);
+            // Console.WriteLine(nome);
+
+
+            /********************** VALUE E REFERENCE TYPES **********************/
+            //Tipo de valor.:
+            // int x = 25;
+            // int y = x;
+            // Console.WriteLine(x);
+            // Console.WriteLine(y);
+
+            // x = 32;
+            // Console.WriteLine(x);
+            // Console.WriteLine(y);
+
+
+            //Tipo de referência
+            var array1 = new string[2];
+            array1[0] = "Item 1";
+            var array2 = array1;
+            Console.WriteLine(array1[0]);
+            Console.WriteLine(array2[0]);
+
+            array1[0] = "Item 2";
+            Console.WriteLine(array1[0]);
+            Console.WriteLine(array2[0]);
+
         }
 
-        static void MeuMetodo(){
-            Console.WriteLine("C# é legal!");
-        }
+        // static void MeuMetodo(){
+        //     Console.WriteLine("C# é legal!");
+        // }
 
-        static string RetornaNome(string nome, string sobrenome, int idade){
-            return nome + " " + sobrenome + " tem " + idade.ToString();
-        }
+        // static string RetornaNome(string nome, string sobrenome, int idade){
+        //     return nome + " " + sobrenome + " tem " + idade.ToString();
+        // }
     }
 }
