@@ -20,8 +20,8 @@ namespace Fundamentos_Csharp
             // Console.WriteLine("Seu nome é {0}", teste);
 
             /********************** CONVERTENDO TIPOS **********************/
-            int inteiro = 100;
-            float real = 25.5f;
+            // int inteiro = 100;
+            // float real = 25.5f;
 
             //real = inteiro; //100.0f    //inteiro = real; dá erro!
             
@@ -34,14 +34,25 @@ namespace Fundamentos_Csharp
             inteiro = (int)float.Parse(valorReal);
             */
             
-            inteiro = Convert.ToInt32(real);
+            // inteiro = Convert.ToInt32(real);
 
             //inteiro = int.Parse("255");
 
             //Console.WriteLine(valorReal);
-            Console.WriteLine(inteiro);
-            Console.WriteLine(Convert.ToBoolean(1));
-            Console.WriteLine(Convert.ToBoolean(0));
+            // Console.WriteLine(inteiro);
+            // Console.WriteLine(Convert.ToBoolean(1));
+            // Console.WriteLine(Convert.ToBoolean(0));
+
+
+            /********************** OPERADORES ARITMÉTICOS **********************/
+            // double x = 2;
+            // x = 75/23.8;
+
+            int x = 2;
+            x += 3;
+
+            Console.WriteLine(x);
+            Console.WriteLine(x == 25);
         }
     }
 }
