@@ -60,12 +60,18 @@ namespace Fundamentos_Csharp
 
 
             /********************** USANDO SWITCH **********************/
-            string valor = "André";
-            switch(valor){
-                case "Joao": Console.WriteLine("Não é o cara."); break;
-                case "Marcelo": Console.WriteLine("Não é o cara."); break;
-                case "André": Console.WriteLine("É esse!!."); break;
-                default: Console.WriteLine("Não achou ninguém :("); break;
+            // string valor = "André";
+            // switch(valor){
+            //     case "Joao": Console.WriteLine("Não é o cara."); break;
+            //     case "Marcelo": Console.WriteLine("Não é o cara."); break;
+            //     case "André": Console.WriteLine("É esse!!."); break;
+            //     default: Console.WriteLine("Não achou ninguém :("); break;
+            // }
+
+
+            /********************** USANDO FOR **********************/
+            for(int i = 0; i <= 5; i++){
+                Console.WriteLine(i);
             }
         }
     }
