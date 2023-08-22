@@ -48,11 +48,25 @@ namespace Fundamentos_Csharp
             // double x = 2;
             // x = 75/23.8;
 
-            int x = 2;
-            x += 3;
+            // int x = 2;
+            // x += 3;
 
-            Console.WriteLine(x);
-            Console.WriteLine(x == 25);
+            // Console.WriteLine(x);
+            // Console.WriteLine(x == 25);
+
+
+            /********************** USANDO IF **********************/
+            // Mesma coisa das outras linguagens
+
+
+            /********************** USANDO SWITCH **********************/
+            string valor = "André";
+            switch(valor){
+                case "Joao": Console.WriteLine("Não é o cara."); break;
+                case "Marcelo": Console.WriteLine("Não é o cara."); break;
+                case "André": Console.WriteLine("É esse!!."); break;
+                default: Console.WriteLine("Não achou ninguém :("); break;
+            }
         }
     }
 }
