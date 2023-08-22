@@ -70,8 +70,16 @@ namespace Fundamentos_Csharp
 
 
             /********************** USANDO FOR **********************/
-            for(int i = 0; i <= 5; i++){
-                Console.WriteLine(i);
+            // for(int i = 0; i <= 5; i++){
+            //     Console.WriteLine(i);
+            // }
+
+
+            /********************** USANDO WHILE **********************/
+            var valor = 0;
+            while(valor <= 5){
+                Console.WriteLine(valor);
+                valor++;
             }
         }
     }
