@@ -101,16 +101,26 @@ namespace Fundamentos_Csharp
             // Console.WriteLine(y);
 
 
-            //Tipo de referência
-            var array1 = new string[2];
-            array1[0] = "Item 1";
-            var array2 = array1;
-            Console.WriteLine(array1[0]);
-            Console.WriteLine(array2[0]);
+            // //Tipo de referência
+            // var array1 = new string[2];
+            // array1[0] = "Item 1";
+            // var array2 = array1;
+            // Console.WriteLine(array1[0]);
+            // Console.WriteLine(array2[0]);
 
-            array1[0] = "Item 2";
-            Console.WriteLine(array1[0]);
-            Console.WriteLine(array2[0]);
+            // array1[0] = "Item 2";
+            // Console.WriteLine(array1[0]);
+            // Console.WriteLine(array2[0]);
+
+
+            /********************** CHAMANDO O STRUCT **********************/
+            Produto mouse = new Produto(1, "Mouse Gamer", 299.97);
+            Console.WriteLine(mouse.Id);
+            Console.WriteLine(mouse.Nome);
+            Console.WriteLine(mouse.Preco);
+
+            var valorEmDolar = mouse.PrecoEmDolar(4.5);
+            Console.WriteLine(valorEmDolar);
 
         }
 
@@ -121,5 +131,25 @@ namespace Fundamentos_Csharp
         // static string RetornaNome(string nome, string sobrenome, int idade){
         //     return nome + " " + sobrenome + " tem " + idade.ToString();
         // }
+
+    }
+
+    struct Produto{
+        //Construtor
+        public Produto(int id, string nome, double preco){
+            Id = id;
+            Nome = nome;
+            Preco = preco;
+        }
+
+        //Atributos
+        public int Id;
+        public string Nome;
+        public double Preco;
+
+        //Métodos
+        public double PrecoEmDolar(double dolar){
+            return Preco * dolar;
+        }
     }
 }
