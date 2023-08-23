@@ -13,8 +13,12 @@
             Console.WriteLine("Quanto tempo deseja contar?");
 
             string dado = Console.ReadLine().ToLower();
-            char type = char.Parse(dado.Substring(dado.Length - 1, 1));
-            Console.WriteLine(dado);
+            char tipoDeTempo = char.Parse(dado.Substring(dado.Length - 1, 1));
+            int tempo = int.Parse(dado.Substring(0, dado.Length - 1));
+           
+            Console.WriteLine(tipoDeTempo);
+            Console.WriteLine(tempo);
+
         }
 
         static void Start(int tempo){
