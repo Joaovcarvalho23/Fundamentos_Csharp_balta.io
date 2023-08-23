@@ -15,10 +15,20 @@
             string dado = Console.ReadLine().ToLower();
             char tipoDeTempo = char.Parse(dado.Substring(dado.Length - 1, 1));
             int tempo = int.Parse(dado.Substring(0, dado.Length - 1));
-           
-            Console.WriteLine(tipoDeTempo);
-            Console.WriteLine(tempo);
+            
+            int multiplicador = 1;
+            if(tipoDeTempo == 'm')
+                multiplicador = 60;
+            
 
+            if(tempo == 0)
+                System.Environment.Exit(0);
+            
+
+            Start(tempo * multiplicador);
+
+            // Console.WriteLine(tipoDeTempo);
+            // Console.WriteLine(tempo);
         }
 
         static void Start(int tempo){
@@ -34,6 +44,7 @@
             Console.Clear();
             Console.WriteLine("Cronômetro finzalizado!");
             Thread.Sleep(2500);
+            Menu();
         }
         
     }
