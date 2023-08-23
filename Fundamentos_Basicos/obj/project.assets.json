@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Fundamentos_Csharp_balta.io\\Fundamentos_Csharp_balta.io.csproj",
+      "projectUniqueName": "C:\\Fundamentos_Csharp_balta.io\\Fundamentos_Basicos\\Fundamentos_Csharp_balta.io.csproj",
       "projectName": "Fundamentos_Csharp_balta.io",
-      "projectPath": "C:\\Fundamentos_Csharp_balta.io\\Fundamentos_Csharp_balta.io.csproj",
+      "projectPath": "C:\\Fundamentos_Csharp_balta.io\\Fundamentos_Basicos\\Fundamentos_Csharp_balta.io.csproj",
       "packagesPath": "C:\\Users\\joao.gomes\\.nuget\\packages\\",
-      "outputPath": "C:\\Fundamentos_Csharp_balta.io\\obj\\",
+      "outputPath": "C:\\Fundamentos_Csharp_balta.io\\Fundamentos_Basicos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joao.gomes\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -10,12 +10,13 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Fundamentos_Basicos/bin/Debug/net7.0/Fundamentos_Csharp_balta.io.dll",
+            "program": "${workspaceFolder}/bin/Debug/net7.0/Fundamentos_Csharp_balta.io.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Fundamentos_Basicos",
+            "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
-            "stopAtEntry": false
+            "stopAtEntry": false,
+            "requireExactSource": false
         },
         {
             "name": ".NET Core Attach",
