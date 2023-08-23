@@ -114,13 +114,24 @@ namespace Fundamentos_Csharp
 
 
             /********************** CHAMANDO O STRUCT **********************/
-            Produto mouse = new Produto(1, "Mouse Gamer", 299.97);
+            var mouse = new Produto(1, "Mouse Gamer", 299.97, ETipoDeProduto.Produto);
+            var manutencaoEletrica = new Produto(2, "Manutenção elétrica", 120.00, ETipoDeProduto.Servico);
+
             Console.WriteLine(mouse.Id);
             Console.WriteLine(mouse.Nome);
             Console.WriteLine(mouse.Preco);
+            Console.WriteLine(mouse.TipoProd);
+            Console.WriteLine("Índice do Enum: {0}", (int)mouse.TipoProd);
+            var mValorEmDolar = mouse.PrecoEmDolar(4.5);
+            Console.WriteLine(mValorEmDolar+"\n");
 
-            var valorEmDolar = mouse.PrecoEmDolar(4.5);
-            Console.WriteLine(valorEmDolar);
+            Console.WriteLine(manutencaoEletrica.Id);
+            Console.WriteLine(manutencaoEletrica.Nome);
+            Console.WriteLine(manutencaoEletrica.Preco);
+            Console.WriteLine(manutencaoEletrica.TipoProd);
+            Console.WriteLine("Índice do Enum: {0}", (int)manutencaoEletrica.TipoProd);
+            var manValorEmDolar = manutencaoEletrica.PrecoEmDolar(4.5);
+            Console.WriteLine(manValorEmDolar);
 
         }
 
@@ -135,21 +146,30 @@ namespace Fundamentos_Csharp
     }
 
     struct Produto{
-        //Construtor
-        public Produto(int id, string nome, double preco){
-            Id = id;
-            Nome = nome;
-            Preco = preco;
-        }
-
-        //Atributos
+         //Atributos
         public int Id;
         public string Nome;
         public double Preco;
+        public ETipoDeProduto TipoProd;
+
+
+        //Construtor
+        public Produto(int id, string nome, double preco, ETipoDeProduto tipoProd){
+            Id = id;
+            Nome = nome;
+            Preco = preco;
+            TipoProd = tipoProd;
+        }
+
 
         //Métodos
         public double PrecoEmDolar(double dolar){
             return Preco * dolar;
         }
+    }
+
+    enum ETipoDeProduto{
+        Produto = 1,
+        Servico = 2
     }
 }
