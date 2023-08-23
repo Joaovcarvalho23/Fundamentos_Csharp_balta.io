@@ -31,9 +31,14 @@
             Console.WriteLine("Digite seu texto abaixo (ESC para sair)\n -----------------------------");
             string? texto = "";
 
-            while(Console.ReadKey().Key != ConsoleKey.Escape){
-                
-            }
+            do{
+
+                texto += Console.ReadLine();
+                texto += Environment.NewLine;
+
+            }while(Console.ReadKey().Key != ConsoleKey.Escape);
+
+            Console.Write(texto);
         }
     }
 }
