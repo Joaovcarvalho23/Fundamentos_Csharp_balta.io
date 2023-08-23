@@ -38,7 +38,7 @@
 
             }while(Console.ReadKey().Key != ConsoleKey.Escape);
 
-            Console.Write(texto);
+            SalvarArquivo(texto);
         }
 
         static void SalvarArquivo(string texto){
@@ -51,7 +51,11 @@
 
             using (var file = new StreamWriter(path)){ //ele abre e fecha o arquivo pra gente!
                 file.Write(texto);
-            }; 
+            }
+
+            Console.WriteLine($"Arquivo {path} salvo com sucesso!");
+            Thread.Sleep(2500);
+            Menu();
         }
     }
 }
