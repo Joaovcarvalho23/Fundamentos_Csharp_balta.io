@@ -1,0 +1,14 @@
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\bin\Debug\net7.0\Editor_de_Texto.exe
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\bin\Debug\net7.0\Editor_de_Texto.deps.json
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\bin\Debug\net7.0\Editor_de_Texto.runtimeconfig.json
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\bin\Debug\net7.0\Editor_de_Texto.dll
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\bin\Debug\net7.0\Editor_de_Texto.pdb
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\obj\Debug\net7.0\Editor_de_Texto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\obj\Debug\net7.0\Editor_de_Texto.AssemblyInfoInputs.cache
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\obj\Debug\net7.0\Editor_de_Texto.AssemblyInfo.cs
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\obj\Debug\net7.0\Editor_de_Texto.csproj.CoreCompileInputs.cache
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\obj\Debug\net7.0\Editor_de_Texto.dll
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\obj\Debug\net7.0\refint\Editor_de_Texto.dll
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\obj\Debug\net7.0\Editor_de_Texto.pdb
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\obj\Debug\net7.0\Editor_de_Texto.genruntimeconfig.cache
+C:\Fundamentos_Csharp_balta.io\Editor_de_Texto\obj\Debug\net7.0\ref\Editor_de_Texto.dll
