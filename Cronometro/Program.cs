@@ -25,10 +25,20 @@
                 System.Environment.Exit(0);
             
 
-            Start(tempo * multiplicador);
+            ReadySetGo(tempo * multiplicador);
 
             // Console.WriteLine(tipoDeTempo);
             // Console.WriteLine(tempo);
+        }
+
+        static void ReadySetGo(int tempo){
+            Console.Clear();
+            Console.WriteLine("Preparar...");
+            Thread.Sleep(1000);
+            Console.WriteLine("Vai!");
+            Thread.Sleep(1000);
+
+            Start(tempo);
         }
 
         static void Start(int tempo){
