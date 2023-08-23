@@ -1,0 +1,14 @@
+C:\Fundamentos_Csharp_balta.io\Calculator\bin\Debug\net7.0\Calculator.exe
+C:\Fundamentos_Csharp_balta.io\Calculator\bin\Debug\net7.0\Calculator.deps.json
+C:\Fundamentos_Csharp_balta.io\Calculator\bin\Debug\net7.0\Calculator.runtimeconfig.json
+C:\Fundamentos_Csharp_balta.io\Calculator\bin\Debug\net7.0\Calculator.dll
+C:\Fundamentos_Csharp_balta.io\Calculator\bin\Debug\net7.0\Calculator.pdb
+C:\Fundamentos_Csharp_balta.io\Calculator\obj\Debug\net7.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fundamentos_Csharp_balta.io\Calculator\obj\Debug\net7.0\Calculator.AssemblyInfoInputs.cache
+C:\Fundamentos_Csharp_balta.io\Calculator\obj\Debug\net7.0\Calculator.AssemblyInfo.cs
+C:\Fundamentos_Csharp_balta.io\Calculator\obj\Debug\net7.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Fundamentos_Csharp_balta.io\Calculator\obj\Debug\net7.0\Calculator.dll
+C:\Fundamentos_Csharp_balta.io\Calculator\obj\Debug\net7.0\refint\Calculator.dll
+C:\Fundamentos_Csharp_balta.io\Calculator\obj\Debug\net7.0\Calculator.pdb
+C:\Fundamentos_Csharp_balta.io\Calculator\obj\Debug\net7.0\Calculator.genruntimeconfig.cache
+C:\Fundamentos_Csharp_balta.io\Calculator\obj\Debug\net7.0\ref\Calculator.dll
