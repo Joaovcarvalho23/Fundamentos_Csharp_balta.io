@@ -1,0 +1,14 @@
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\bin\Debug\net7.0\StringPt1.exe
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\bin\Debug\net7.0\StringPt1.deps.json
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\bin\Debug\net7.0\StringPt1.runtimeconfig.json
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\bin\Debug\net7.0\StringPt1.dll
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\bin\Debug\net7.0\StringPt1.pdb
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\obj\Debug\net7.0\StringPt1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\obj\Debug\net7.0\StringPt1.AssemblyInfoInputs.cache
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\obj\Debug\net7.0\StringPt1.AssemblyInfo.cs
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\obj\Debug\net7.0\StringPt1.csproj.CoreCompileInputs.cache
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\obj\Debug\net7.0\StringPt1.dll
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\obj\Debug\net7.0\refint\StringPt1.dll
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\obj\Debug\net7.0\StringPt1.pdb
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\obj\Debug\net7.0\StringPt1.genruntimeconfig.cache
+C:\Fundamentos_Csharp_balta.io\Strings\StringPt1\obj\Debug\net7.0\ref\StringPt1.dll
