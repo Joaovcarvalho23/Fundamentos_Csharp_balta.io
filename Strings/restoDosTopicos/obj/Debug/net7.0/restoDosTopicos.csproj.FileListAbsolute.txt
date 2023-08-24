@@ -1,0 +1,14 @@
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\bin\Debug\net7.0\restoDosTopicos.exe
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\bin\Debug\net7.0\restoDosTopicos.deps.json
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\bin\Debug\net7.0\restoDosTopicos.runtimeconfig.json
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\bin\Debug\net7.0\restoDosTopicos.dll
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\bin\Debug\net7.0\restoDosTopicos.pdb
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\obj\Debug\net7.0\restoDosTopicos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\obj\Debug\net7.0\restoDosTopicos.AssemblyInfoInputs.cache
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\obj\Debug\net7.0\restoDosTopicos.AssemblyInfo.cs
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\obj\Debug\net7.0\restoDosTopicos.csproj.CoreCompileInputs.cache
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\obj\Debug\net7.0\restoDosTopicos.dll
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\obj\Debug\net7.0\refint\restoDosTopicos.dll
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\obj\Debug\net7.0\restoDosTopicos.pdb
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\obj\Debug\net7.0\restoDosTopicos.genruntimeconfig.cache
+C:\Fundamentos_Csharp_balta.io\Strings\restoDosTopicos\obj\Debug\net7.0\ref\restoDosTopicos.dll
