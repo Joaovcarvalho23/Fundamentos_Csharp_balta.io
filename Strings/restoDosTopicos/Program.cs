@@ -1,4 +1,6 @@
-﻿namespace TopicosString
+﻿using System.Text;
+
+namespace TopicosString
 {
     class Program
     {
@@ -49,6 +51,17 @@
 
             // Console.WriteLine(texto.Trim());
 
+         // ***************** STRINGBUILDER *****************
+            Console.Clear();
+            //é usado para strings muito grandes, o que pode gerar confusão
+            var texto = new StringBuilder();
+            texto.Append("Este texto é um teste"); //anexar um item ao nosso texto
+            texto.Append(" muito legal"); 
+            texto.Append(" sobre o método "); 
+            texto.Append("do String Builder"); 
+
+            texto.ToString();
+            Console.WriteLine(texto);
 
         }
     }
