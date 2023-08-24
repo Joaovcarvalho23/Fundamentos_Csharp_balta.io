@@ -12,6 +12,7 @@ namespace EditorHTML
             EscreverOpcoes();
 
             var opcao = short.Parse(Console.ReadLine());
+            ManipularMenu(opcao);
         }
 
         public static void DesenharTela(){
@@ -58,6 +59,20 @@ namespace EditorHTML
             Console.SetCursorPosition(3,10);
             Console.WriteLine("Opção: ");
             Console.SetCursorPosition(10,10);
+        }
+
+        public static void ManipularMenu(short opcao){
+
+            switch(opcao){
+                case 1: Console.WriteLine("Editor"); break;
+                case 2: Console.WriteLine("Visualizador"); break;
+                case 0: {
+                    Console.Clear();
+                    Environment.Exit(0);
+                    break;
+                }
+                default: Mostrar(); break;
+            }
         }
     }
 }
