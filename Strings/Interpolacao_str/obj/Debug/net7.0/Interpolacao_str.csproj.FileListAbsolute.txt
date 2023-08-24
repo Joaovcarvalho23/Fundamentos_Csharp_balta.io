@@ -1,0 +1,14 @@
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\bin\Debug\net7.0\Interpolacao_str.exe
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\bin\Debug\net7.0\Interpolacao_str.deps.json
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\bin\Debug\net7.0\Interpolacao_str.runtimeconfig.json
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\bin\Debug\net7.0\Interpolacao_str.dll
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\bin\Debug\net7.0\Interpolacao_str.pdb
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\obj\Debug\net7.0\Interpolacao_str.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\obj\Debug\net7.0\Interpolacao_str.AssemblyInfoInputs.cache
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\obj\Debug\net7.0\Interpolacao_str.AssemblyInfo.cs
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\obj\Debug\net7.0\Interpolacao_str.csproj.CoreCompileInputs.cache
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\obj\Debug\net7.0\Interpolacao_str.dll
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\obj\Debug\net7.0\refint\Interpolacao_str.dll
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\obj\Debug\net7.0\Interpolacao_str.pdb
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\obj\Debug\net7.0\Interpolacao_str.genruntimeconfig.cache
+C:\Fundamentos_Csharp_balta.io\Strings\Interpolacao_str\obj\Debug\net7.0\ref\Interpolacao_str.dll
