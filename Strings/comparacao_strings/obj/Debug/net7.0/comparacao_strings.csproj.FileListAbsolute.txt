@@ -1,0 +1,14 @@
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\bin\Debug\net7.0\comparacao_strings.exe
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\bin\Debug\net7.0\comparacao_strings.deps.json
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\bin\Debug\net7.0\comparacao_strings.runtimeconfig.json
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\bin\Debug\net7.0\comparacao_strings.dll
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\bin\Debug\net7.0\comparacao_strings.pdb
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\obj\Debug\net7.0\comparacao_strings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\obj\Debug\net7.0\comparacao_strings.AssemblyInfoInputs.cache
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\obj\Debug\net7.0\comparacao_strings.AssemblyInfo.cs
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\obj\Debug\net7.0\comparacao_strings.csproj.CoreCompileInputs.cache
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\obj\Debug\net7.0\comparacao_strings.dll
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\obj\Debug\net7.0\refint\comparacao_strings.dll
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\obj\Debug\net7.0\comparacao_strings.pdb
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\obj\Debug\net7.0\comparacao_strings.genruntimeconfig.cache
+C:\Fundamentos_Csharp_balta.io\Strings\comparacao_strings\obj\Debug\net7.0\ref\comparacao_strings.dll
