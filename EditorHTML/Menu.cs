@@ -63,7 +63,7 @@ namespace EditorHTML
 
             switch(opcao){
                 case 1: Editor.Show(); break;
-                case 2: Console.WriteLine("Visualizador"); break;
+                case 2: Visualizador.Show(""); break;
                 case 0: {
                     Console.Clear();
                     Environment.Exit(0);

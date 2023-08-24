@@ -24,6 +24,7 @@ namespace EditorHTML
 
             Console.WriteLine("-----------------------");
             Console.WriteLine(" Deseja salvar o arquivo?");
+            Visualizador.Show(arquivo.ToString());
 
         }
     }
