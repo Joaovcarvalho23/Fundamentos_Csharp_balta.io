@@ -7,7 +7,6 @@ namespace EditorHTML
             Console.BackgroundColor = ConsoleColor.Blue; //cor do fundo
             Console.ForegroundColor = ConsoleColor.Black; //cor da letra
 
-            //EscreverOpcoes();
             DesenharTela();
             EscreverOpcoes();
 
@@ -40,7 +39,6 @@ namespace EditorHTML
                 Console.Write("-");
             }
             Console.Write("+");
-
         }
     
         public static void EscreverOpcoes(){
@@ -64,7 +62,7 @@ namespace EditorHTML
         public static void ManipularMenu(short opcao){
 
             switch(opcao){
-                case 1: Console.WriteLine("Editor"); break;
+                case 1: Editor.Show(); break;
                 case 2: Console.WriteLine("Visualizador"); break;
                 case 0: {
                     Console.Clear();
