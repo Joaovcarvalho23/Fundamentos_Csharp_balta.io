@@ -1,2 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace TopicosString
+{
+    class Program
+    {
+        static void Main (string[] args){
+            
+        // ***************** EQUALS *****************
+            Console.Clear();
+            var texto = "Este texto é um teste";
+            Console.WriteLine(texto.Equals("Este texto é um teste"));
+            Console.WriteLine(texto.Equals("este texto é um teste"));
+            Console.WriteLine(texto.Equals("este texto é um teste", StringComparison.OrdinalIgnoreCase));
+
+        // ***************** ÍNDICES *****************
+            
+        }
+    }
+}
