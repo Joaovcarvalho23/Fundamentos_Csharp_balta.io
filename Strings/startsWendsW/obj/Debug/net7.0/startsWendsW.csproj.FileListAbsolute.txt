@@ -1,0 +1,14 @@
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\bin\Debug\net7.0\startsWendsW.exe
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\bin\Debug\net7.0\startsWendsW.deps.json
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\bin\Debug\net7.0\startsWendsW.runtimeconfig.json
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\bin\Debug\net7.0\startsWendsW.dll
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\bin\Debug\net7.0\startsWendsW.pdb
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\obj\Debug\net7.0\startsWendsW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\obj\Debug\net7.0\startsWendsW.AssemblyInfoInputs.cache
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\obj\Debug\net7.0\startsWendsW.AssemblyInfo.cs
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\obj\Debug\net7.0\startsWendsW.csproj.CoreCompileInputs.cache
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\obj\Debug\net7.0\startsWendsW.dll
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\obj\Debug\net7.0\refint\startsWendsW.dll
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\obj\Debug\net7.0\startsWendsW.pdb
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\obj\Debug\net7.0\startsWendsW.genruntimeconfig.cache
+C:\Fundamentos_Csharp_balta.io\Strings\startsWendsW\obj\Debug\net7.0\ref\startsWendsW.dll
