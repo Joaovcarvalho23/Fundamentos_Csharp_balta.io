@@ -1,4 +1,6 @@
-﻿namespace Datas
+﻿using System.Globalization;
+
+namespace Datas
 {
     class Program
     {
@@ -40,17 +42,28 @@
             // Console.WriteLine(data.AddYears(3));
 
         // ******************** COMPARANDO DATAS ********************
-            //DateTime? data = null;
-            var data = DateTime.Now;
+            // //DateTime? data = null;
+            // var data = DateTime.Now;
 
-            // if(data == DateTime.Now){
+            // // if(data == DateTime.Now){
+            // //     Console.WriteLine("É igual");
+            // // } NUNCA VAI FUNCIONAR POR CAUSA DA FRAÇÃO DE SEGUNDOS
+
+            // if(data.Date == DateTime.Now.Date)
             //     Console.WriteLine("É igual");
-            // } NUNCA VAI FUNCIONAR POR CAUSA DA FRAÇÃO DE SEGUNDOS
 
-            if(data.Date == DateTime.Now.Date)
-                Console.WriteLine("É igual");
+            // Console.WriteLine(data);
 
-            Console.WriteLine(data);
+        // ******************** CULTUREINFO ********************
+            var dataEmPortugues = new CultureInfo("pt-BR");
+            var dataEmPortugal = new CultureInfo("pt-PT");
+            var dataEmIngles = new CultureInfo("en-US");
+            var dataEmDinamarca = new CultureInfo("de-DE");
+
+            Console.WriteLine(DateTime.Now.ToString("D", dataEmPortugues));
+            Console.WriteLine(DateTime.Now.ToString("D", dataEmPortugal));
+            Console.WriteLine(DateTime.Now.ToString("D", dataEmIngles));
+            Console.WriteLine(DateTime.Now.ToString("D", dataEmDinamarca));
         }
     }
 }
