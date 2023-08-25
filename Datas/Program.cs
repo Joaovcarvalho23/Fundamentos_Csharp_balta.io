@@ -4,7 +4,11 @@
     {
         static void Main(string[] args){
             Console.Clear();
-            Console.WriteLine("Hello, World!");
+            
+            //var data = new DateTime();
+
+            var data = DateTime.Now;
+            Console.WriteLine(data);
         }
     }
 }
