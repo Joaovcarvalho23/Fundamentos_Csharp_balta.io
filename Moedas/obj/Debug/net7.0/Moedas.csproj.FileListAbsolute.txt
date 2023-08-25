@@ -1,0 +1,14 @@
+C:\Fundamentos_Csharp_balta.io\Moedas\bin\Debug\net7.0\Moedas.exe
+C:\Fundamentos_Csharp_balta.io\Moedas\bin\Debug\net7.0\Moedas.deps.json
+C:\Fundamentos_Csharp_balta.io\Moedas\bin\Debug\net7.0\Moedas.runtimeconfig.json
+C:\Fundamentos_Csharp_balta.io\Moedas\bin\Debug\net7.0\Moedas.dll
+C:\Fundamentos_Csharp_balta.io\Moedas\bin\Debug\net7.0\Moedas.pdb
+C:\Fundamentos_Csharp_balta.io\Moedas\obj\Debug\net7.0\Moedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fundamentos_Csharp_balta.io\Moedas\obj\Debug\net7.0\Moedas.AssemblyInfoInputs.cache
+C:\Fundamentos_Csharp_balta.io\Moedas\obj\Debug\net7.0\Moedas.AssemblyInfo.cs
+C:\Fundamentos_Csharp_balta.io\Moedas\obj\Debug\net7.0\Moedas.csproj.CoreCompileInputs.cache
+C:\Fundamentos_Csharp_balta.io\Moedas\obj\Debug\net7.0\Moedas.dll
+C:\Fundamentos_Csharp_balta.io\Moedas\obj\Debug\net7.0\refint\Moedas.dll
+C:\Fundamentos_Csharp_balta.io\Moedas\obj\Debug\net7.0\Moedas.pdb
+C:\Fundamentos_Csharp_balta.io\Moedas\obj\Debug\net7.0\Moedas.genruntimeconfig.cache
+C:\Fundamentos_Csharp_balta.io\Moedas\obj\Debug\net7.0\ref\Moedas.dll
