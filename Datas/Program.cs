@@ -94,20 +94,30 @@ namespace Datas
             // }
 
         // ******************** TIMESPAN ********************
-            var tipeSpan = new TimeSpan();
-            Console.WriteLine(tipeSpan);
+            // var tipeSpan = new TimeSpan();
+            // Console.WriteLine(tipeSpan);
 
-            var tipeSpanNanoSegundos = new TimeSpan(1);
-            Console.WriteLine(tipeSpanNanoSegundos);
+            // var tipeSpanNanoSegundos = new TimeSpan(1);
+            // Console.WriteLine(tipeSpanNanoSegundos);
 
-            var tipeSpanHoraMinutoSegundo = new TimeSpan(5, 12, 8);
-            Console.WriteLine(tipeSpanHoraMinutoSegundo);
+            // var tipeSpanHoraMinutoSegundo = new TimeSpan(5, 12, 8);
+            // Console.WriteLine(tipeSpanHoraMinutoSegundo);
 
-             var tipeSpanDiaHoraMinutoSegundo = new TimeSpan(3, 5, 12, 8);
-            Console.WriteLine(tipeSpanDiaHoraMinutoSegundo);
+            //  var tipeSpanDiaHoraMinutoSegundo = new TimeSpan(3, 5, 12, 8);
+            // Console.WriteLine(tipeSpanDiaHoraMinutoSegundo);
 
-             var tipeSpanHoraMinutoSegundoMilissegundo = new TimeSpan(15, 12, 8, 100);
-            Console.WriteLine(tipeSpanHoraMinutoSegundoMilissegundo);
+            //  var tipeSpanHoraMinutoSegundoMilissegundo = new TimeSpan(15, 12, 8, 100);
+            // Console.WriteLine(tipeSpanHoraMinutoSegundoMilissegundo);
+
+        // ******************** REVISÃO ********************
+            Console.WriteLine(DateTime.DaysInMonth(2023, 2));
+            Console.WriteLine(FimDeSemana(DateTime.Now.DayOfWeek));
+            Console.WriteLine(DateTime.Now.IsDaylightSavingTime()); //horário de verão que retorna um boolean
+
+        }
+
+        static bool FimDeSemana(DayOfWeek hoje){
+            return hoje == DayOfWeek.Saturday || hoje == DayOfWeek.Friday;
         }
     }
 }
