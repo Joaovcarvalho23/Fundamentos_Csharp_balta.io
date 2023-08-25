@@ -53,7 +53,8 @@
                 //      Console.WriteLine(meuArray[i]);
                 //  }
 
-                 Salvar("");
+                 //Salvar("");
+                 Salvar("fafwfwqfwf");
 
                 //sempre do mais específico para o mais genérico
              } catch(IndexOutOfRangeException ex){
@@ -73,14 +74,16 @@
                  Console.WriteLine(ex.Message);
                  Console.WriteLine(ex.InnerException);
                  Console.WriteLine(ex.QuandoAconteceu);
-                 
+
              } catch (Exception ex){ // esse sempre fica por último!!
 
                  Console.WriteLine("Algo deu errado!");
                  Console.WriteLine(ex.Message);
                  Console.WriteLine(ex.InnerException);
 
-             } 
+             } finally{
+                Console.WriteLine("Chegou ao fim!");
+             }
         }
 
         private static void Salvar(string texto){
