@@ -66,32 +66,48 @@ namespace Datas
             // Console.WriteLine(DateTime.Now.ToString("D", dataEmDinamarca));
 
         // ******************** TIMEZONE ********************
-            //Para operar em servidores com outras linguas, tipo portugues, ingles, espanhol...
-            var utcDate = DateTime.UtcNow; //usar se estiver trabalhando com aplicações globalizadas
+            // //Para operar em servidores com outras linguas, tipo portugues, ingles, espanhol...
+            // var utcDate = DateTime.UtcNow; //usar se estiver trabalhando com aplicações globalizadas
 
-            Console.WriteLine(DateTime.Now);
-            Console.WriteLine(utcDate);
-            Console.WriteLine(utcDate.ToLocalTime()); //cultureinfo
-            Console.WriteLine(" ");
+            // Console.WriteLine(DateTime.Now);
+            // Console.WriteLine(utcDate);
+            // Console.WriteLine(utcDate.ToLocalTime()); //cultureinfo
+            // Console.WriteLine(" ");
 
-            //Se a máquina está nos EUA, mas meu usuário está na Austrália... como fazemos para colocar um timezone nessa máquina?
-            var timezoneAustralia = TimeZoneInfo.FindSystemTimeZoneById("Pacific/Auckland");
-            Console.WriteLine(timezoneAustralia);
-            Console.WriteLine(" ");
+            // //Se a máquina está nos EUA, mas meu usuário está na Austrália... como fazemos para colocar um timezone nessa máquina?
+            // var timezoneAustralia = TimeZoneInfo.FindSystemTimeZoneById("Pacific/Auckland");
+            // Console.WriteLine(timezoneAustralia);
+            // Console.WriteLine(" ");
 
-            var horasAustralia = TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezoneAustralia);
-            Console.WriteLine(horasAustralia);
-            Console.WriteLine(" ");
+            // var horasAustralia = TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezoneAustralia);
+            // Console.WriteLine(horasAustralia);
+            // Console.WriteLine(" ");
 
-            //Pegar todos os timezones que estão armazenados no sistema
-            var timezones = TimeZoneInfo.GetSystemTimeZones();
-            foreach (var timezone in timezones)
-            {
-                Console.WriteLine(timezone.Id);
-                Console.WriteLine(timezone);
-                Console.WriteLine(TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezoneAustralia));
-                Console.WriteLine("-----------------");
-            }
+            // //Pegar todos os timezones que estão armazenados no sistema
+            // var timezones = TimeZoneInfo.GetSystemTimeZones();
+            // foreach (var timezone in timezones)
+            // {
+            //     Console.WriteLine(timezone.Id);
+            //     Console.WriteLine(timezone);
+            //     Console.WriteLine(TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezoneAustralia));
+            //     Console.WriteLine("-----------------");
+            // }
+
+        // ******************** TIMESPAN ********************
+            var tipeSpan = new TimeSpan();
+            Console.WriteLine(tipeSpan);
+
+            var tipeSpanNanoSegundos = new TimeSpan(1);
+            Console.WriteLine(tipeSpanNanoSegundos);
+
+            var tipeSpanHoraMinutoSegundo = new TimeSpan(5, 12, 8);
+            Console.WriteLine(tipeSpanHoraMinutoSegundo);
+
+             var tipeSpanDiaHoraMinutoSegundo = new TimeSpan(3, 5, 12, 8);
+            Console.WriteLine(tipeSpanDiaHoraMinutoSegundo);
+
+             var tipeSpanHoraMinutoSegundoMilissegundo = new TimeSpan(15, 12, 8, 100);
+            Console.WriteLine(tipeSpanHoraMinutoSegundoMilissegundo);
         }
     }
 }
