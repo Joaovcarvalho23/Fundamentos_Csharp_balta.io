@@ -19,8 +19,17 @@
             // Console.WriteLine(data.DayOfYear);
 
         // ******************** FORMATANDO DATAS ********************
+            // var data = DateTime.Now;
+            // var formatada = String.Format("{0:dd/MM/yyyy hh:mm:ss}", data);
+            // Console.WriteLine(formatada);
+
+        // ******************** PADRÕES DE FORMATAÇÃO ********************
             var data = DateTime.Now;
-            var formatada = String.Format("{0:dd/MM/yyyy hh:mm:ss}", data);
+            var formatada = String.Format("{0:D}", data);
+            // var formatada = String.Format("{0:y}", data);
+            // var formatada = String.Format("{0:t}", data);
+            // var formatada = String.Format("{0:r}", data);
+            // var formatada = String.Format("{0:s}", data); //Mais usada com JSON
             Console.WriteLine(formatada);
         }
     }
