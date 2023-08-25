@@ -68,9 +68,13 @@
                  Console.WriteLine(ex.Message);
                  Console.WriteLine(ex.InnerException);
 
-             }  
-             
-             catch (Exception ex){ // esse sempre fica por último!!
+             } catch (MinhaException ex){
+                 Console.WriteLine("Exceção customizada");
+                 Console.WriteLine(ex.Message);
+                 Console.WriteLine(ex.InnerException);
+                 Console.WriteLine(ex.QuandoAconteceu);
+                 
+             } catch (Exception ex){ // esse sempre fica por último!!
 
                  Console.WriteLine("Algo deu errado!");
                  Console.WriteLine(ex.Message);
@@ -83,8 +87,16 @@
 
             if(string.IsNullOrEmpty(texto)){
                 //throw new Exception("O texto não pode ser nulo ou vazio!");
-                throw new ArgumentNullException("O texto não pode ser nulo ou vazio!");
+                throw new MinhaException(DateTime.Now);
             }
+        }
+
+        public class MinhaException : Exception{
+
+            public MinhaException (DateTime data){
+                QuandoAconteceu = data;
+            }
+            public DateTime QuandoAconteceu {get; set;}
         }
     }
 }
