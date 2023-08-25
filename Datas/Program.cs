@@ -55,15 +55,43 @@ namespace Datas
             // Console.WriteLine(data);
 
         // ******************** CULTUREINFO ********************
-            var dataEmPortugues = new CultureInfo("pt-BR");
-            var dataEmPortugal = new CultureInfo("pt-PT");
-            var dataEmIngles = new CultureInfo("en-US");
-            var dataEmDinamarca = new CultureInfo("de-DE");
+            // var dataEmPortugues = new CultureInfo("pt-BR");
+            // var dataEmPortugal = new CultureInfo("pt-PT");
+            // var dataEmIngles = new CultureInfo("en-US");
+            // var dataEmDinamarca = new CultureInfo("de-DE");
 
-            Console.WriteLine(DateTime.Now.ToString("D", dataEmPortugues));
-            Console.WriteLine(DateTime.Now.ToString("D", dataEmPortugal));
-            Console.WriteLine(DateTime.Now.ToString("D", dataEmIngles));
-            Console.WriteLine(DateTime.Now.ToString("D", dataEmDinamarca));
+            // Console.WriteLine(DateTime.Now.ToString("D", dataEmPortugues));
+            // Console.WriteLine(DateTime.Now.ToString("D", dataEmPortugal));
+            // Console.WriteLine(DateTime.Now.ToString("D", dataEmIngles));
+            // Console.WriteLine(DateTime.Now.ToString("D", dataEmDinamarca));
+
+        // ******************** TIMEZONE ********************
+            //Para operar em servidores com outras linguas, tipo portugues, ingles, espanhol...
+            var utcDate = DateTime.UtcNow; //usar se estiver trabalhando com aplicações globalizadas
+
+            Console.WriteLine(DateTime.Now);
+            Console.WriteLine(utcDate);
+            Console.WriteLine(utcDate.ToLocalTime()); //cultureinfo
+            Console.WriteLine(" ");
+
+            //Se a máquina está nos EUA, mas meu usuário está na Austrália... como fazemos para colocar um timezone nessa máquina?
+            var timezoneAustralia = TimeZoneInfo.FindSystemTimeZoneById("Pacific/Auckland");
+            Console.WriteLine(timezoneAustralia);
+            Console.WriteLine(" ");
+
+            var horasAustralia = TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezoneAustralia);
+            Console.WriteLine(horasAustralia);
+            Console.WriteLine(" ");
+
+            //Pegar todos os timezones que estão armazenados no sistema
+            var timezones = TimeZoneInfo.GetSystemTimeZones();
+            foreach (var timezone in timezones)
+            {
+                Console.WriteLine(timezone.Id);
+                Console.WriteLine(timezone);
+                Console.WriteLine(TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezoneAustralia));
+                Console.WriteLine("-----------------");
+            }
         }
     }
 }
