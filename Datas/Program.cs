@@ -33,11 +33,24 @@
           //  Console.WriteLine(formatada);
 
         // ******************** ADICIONANDO VALORES ********************
-            var data  = DateTime.Now;
+            // var data  = DateTime.Now;
+            // Console.WriteLine(data);
+            // Console.WriteLine(data.AddDays(10));
+            // Console.WriteLine(data.AddMonths(2));
+            // Console.WriteLine(data.AddYears(3));
+
+        // ******************** COMPARANDO DATAS ********************
+            //DateTime? data = null;
+            var data = DateTime.Now;
+
+            // if(data == DateTime.Now){
+            //     Console.WriteLine("É igual");
+            // } NUNCA VAI FUNCIONAR POR CAUSA DA FRAÇÃO DE SEGUNDOS
+
+            if(data.Date == DateTime.Now.Date)
+                Console.WriteLine("É igual");
+
             Console.WriteLine(data);
-            Console.WriteLine(data.AddDays(10));
-            Console.WriteLine(data.AddMonths(2));
-            Console.WriteLine(data.AddYears(3));
         }
     }
 }
